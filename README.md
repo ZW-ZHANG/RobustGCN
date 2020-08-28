@@ -1,12 +1,17 @@
 # RobustGCN
 This is a sample implementation of "[Robust Graph Convolutional Networks Against Adversarial Attacks](https://zw-zhang.github.io/files/2019_KDD_RGCN.pdf)", KDD 2019. 
 
-### Usage
-##### Example Usage
+### Requirements
+tensorflow >= 1.12
+numpy >= 1.14.2
+scipy >= 1.1.0
+networkx >= 2.0.0
+gcn
+### Example Usage
 ```
 python src/train.py --dataset cora
 ```
-##### Full Command List
+### Full Command List
 ```
 optional arguments:
 --dataset  Dataset string.
@@ -30,3 +35,5 @@ If you find this code useful, please cite our paper:
   year={2019}
 }
 ```
+### Acknowledgement
+Our code is adapted from the Tensorflow implementation of GCN by Thomas Kipf (https://github.com/tkipf/gcn). 
