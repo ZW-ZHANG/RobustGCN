@@ -7,7 +7,7 @@ tensorflow >= 1.12
 numpy >= 1.14.2
 scipy >= 1.1.0
 networkx >= 2.0.0
-gcn
+gcn (note that you need to follow https://github.com/tkipf/gcn to correctly install gcn instead of using pip)
 ```
 ### Example Usage
 ```
